@@ -1,0 +1,105 @@
+body{
+    background-color: dodgerblue;
+    margin:10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    max-width: 1200px;
+}
+
+
+
+.contenedor-top{
+    background-color:cornflowerblue;
+    padding: 1rem;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-size: 1.5rem;
+    
+}
+
+.logo{
+    background-color: crimson;
+    margin: 0 1rem;
+    padding:0.5rem;
+    
+}
+.nav{
+    background-color: crimson;
+    padding:0.5rem;
+    
+}
+.social{
+    background-color: crimson;
+    padding:0.5rem;
+    margin:0 1rem;
+    
+}
+    
+.banner{
+    background-color: aqua;
+    display:block;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.banner-in{
+background-color:rgb(73, 214, 136);
+padding:0.5rem;
+}
+
+.contenedor-mid{
+    margin-top:1rem;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.articulos{
+    
+    background-color: rgb(108, 108, 218);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+    
+  
+}
+
+.articulo{
+    background-color: rgb(61, 48, 233);
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+.navegacion{
+    grid-area: 3 / 1 / 3 / 3;
+    display: block;
+    background-color: blueviolet;
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+.sidebar{
+    background-color: brown;
+    margin-left: 1rem;
+    text-align: center;
+    
+ 
+}
+.publicidad{
+    background-color: coral;
+    margin:1rem;
+    padding:0.5rem;
+    
+}
+
+.footer{
+border: 0.2rem solid black;
+margin-top: 1rem;
+
+}
+
+.footer-in{
+    background-color: bisque;
+    padding:0.5rem;
+}
