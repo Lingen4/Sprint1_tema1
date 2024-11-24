@@ -1,0 +1,196 @@
+body{
+    background-color: dodgerblue;
+    margin:20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    max-width: 1200px;
+}
+
+
+
+.contenedor-top{
+    background-color:cornflowerblue;
+    padding: 1rem;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-size: 1.5rem;
+    
+}
+
+.logo{
+    background-color: crimson;
+    margin: 0 1rem;
+    padding:0.5rem;
+    
+}
+.nav{
+    background-color: crimson;
+    padding:0.5rem;
+    margin: 0 1rem;
+    
+}
+.social{
+    background-color: crimson;
+    padding:0.5rem;
+    margin:0 1rem;
+    
+}
+    
+.banner{
+    background-color: aqua;
+    display:block;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.banner-in{
+background-color:rgb(73, 214, 136);
+padding:0.5rem;
+}
+
+.contenedor-mid{
+    margin-top:1rem;
+    display:grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.articulos{
+    
+    background-color: rgb(108, 108, 218);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+    
+  
+}
+
+.articulo{
+    background-color: rgb(61, 48, 233);
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+.navegacion{
+    grid-area: 3 / 1 / 3 / 3;
+    display: block;
+    background-color: blueviolet;
+    margin:0.5rem;
+    padding:0.5rem;
+}
+
+.sidebar{
+    background-color: brown;
+    margin-left: 1rem;
+    text-align: center;
+    
+ 
+}
+.publicidad{
+    background-color: coral;
+    margin:1rem;
+    padding:0.5rem;
+    
+}
+
+.footer{
+border: 0.2rem solid black;
+margin-top: 1rem;
+
+}
+
+.footer-in{
+    background-color: bisque;
+    padding:0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+      background-color: lightblue;
+      }
+    .contenedor-top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    
+    }
+
+    .contenedor-mid{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    .sidebar{
+        margin-left: 0;
+        text-align: left;
+        
+    }
+
+ 
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        background-color: navy;
+        }
+    
+        .articulos{
+            display: flex;
+            flex-direction: column;
+            
+        }
+
+  }
+
+
+--------------------
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web de Lingen</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+       
+        <div class="contenedor-top">
+            <div class="logo">logo</div>
+            <div class="nav">nav</div>
+            <div class="social">social</div>
+        </div>
+   
+
+        <div class="banner">
+            <div class="banner-in">banner</div>
+        </div>
+
+        <div class="contenedor-mid">
+            <div class="articulos">
+                <div class="articulo">articulo</div>
+                <div class="articulo">articulo</div>
+                <div class="articulo">articulo</div>
+                <div class="articulo">articulo</div>
+                <div class="navegacion">navegacion</div>
+            </div>
+            <div class="sidebar">
+                <div class="publicidad">publicidad</div>
+                <div class="publicidad">publicidad</div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="footer-in">CSS mi pasión (esto es el pie, también he programado esta página con ellos, gracias por su atención <3)</div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>

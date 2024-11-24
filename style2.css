@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: navy;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    max-width: 1200px;
+}
+
+.image-resp {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.contenedor-top {
+    background-color: cornflowerblue;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+
+.logo {
+    margin: 0 1rem;
+    padding: 0.5rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.item {
+    margin: auto;
+    border: 2px solid black;
+}
+
+.social {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 2px solid black;
+}
+
+.banner {
+    background-color: aqua;
+    display: block;
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.banner-in {
+    background-color: rgb(73, 214, 136);
+    padding: 0.5rem;
+}
+
+.contenedor-mid {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.articulos {
+    background-color: rgb(108, 108, 218);
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.articulo {
+    background-color: rgb(61, 48, 233);
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.navegacion {
+    display: block;
+    background-color: blueviolet;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    background-color: brown;
+    margin-left: 0;
+    text-align: left;
+}
+
+.publicidad {
+    background-color: coral;
+    margin: 1rem;
+    padding: 0.5rem;
+}
+
+.footer {
+    border: 0.2rem solid black;
+    margin-top: 1rem;
+}
+
+.footer-in {
+    background-color: bisque;
+    padding: 0.5rem;
+}
+
